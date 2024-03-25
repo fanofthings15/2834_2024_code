@@ -1,0 +1,37 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.708089344106616,
+      "y": 6.665430988519635
+    },
+    "rotation": 58.29857033049432
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "amp1,0 path"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "TurnTo180"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "1+0",
+  "choreoAuto": false
+}

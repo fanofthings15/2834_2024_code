@@ -1,0 +1,79 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.6913168112050516,
+      "y": 6.684712797997025
+    },
+    "rotation": 58.495733280795804
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "drive back"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "TurnTOZero"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "grab 2nd piece"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake Up"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Turn to shoot"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "TurnTo180"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Wait.25"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "1 + 1 ",
+  "choreoAuto": false
+}
